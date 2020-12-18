@@ -47,7 +47,7 @@ public void getDetails()
 	System.out.println("customer gradePoints:"+this.gradePoints);
 	System.out.println("customer PurchaseAmount:"+this.purchaseAmount);
 	System.out.println("Customer details printed");
-	System.out.println("Finished printing the customer details");
+	System.out.println("Finished printing the customer details in branch");
 	System.out.println("welcome");
 	System.out.println("This is a new branch created now");
 	
