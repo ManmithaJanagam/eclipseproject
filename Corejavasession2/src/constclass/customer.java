@@ -19,12 +19,12 @@ public static void main(String args[])
 {
 	Scanner sc=new Scanner(System.in);
 	System.out.println("Enter the customer details id,name,contactnumber,emailid,purchaseamount");
-	int id=sc.nextInt();
+	int cusid=sc.nextInt();
 	String name=sc.next();
 	String contactNumber=sc.next();
 	String emailId=sc.next();
 	int purchaseAmount=sc.nextInt();
-	customer c=new customer(id,name,contactNumber,emailId,purchaseAmount);
+	customer c=new customer(cusid,name,contactNumber,emailId,purchaseAmount);
 	c.calculateGradePoints();
 }
 public void calculateGradePoints()
