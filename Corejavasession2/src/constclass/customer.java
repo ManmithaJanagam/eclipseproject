@@ -50,5 +50,6 @@ public void getDetails()
 	System.out.println("Finished printing the customer details");
 	System.out.println("welcome");
 	System.out.println("This is a new branch created now");
+	
 }
 }
