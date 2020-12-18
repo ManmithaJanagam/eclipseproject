@@ -46,5 +46,6 @@ public void getDetails()
 	System.out.println("cutomer emailid:"+this.emailId);
 	System.out.println("customer gradePoints:"+this.gradePoints);
 	System.out.println("customer PurchaseAmount:"+this.purchaseAmount);
+	System.out.println("Customer details printed");
 }
 }
